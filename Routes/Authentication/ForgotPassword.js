@@ -25,7 +25,7 @@ router.post("/", async (req, res) => {
         message: "Invalid Email Id",
       });
     } else {
-      const activationLink = `http://localhost:5173/FPUpdate/${token}`;
+      const activationLink = `https://blackcart-3dbe9.web.app/FPUpdate/${token}`;
 
       const content = `<!DOCTYPE html>
             <html>

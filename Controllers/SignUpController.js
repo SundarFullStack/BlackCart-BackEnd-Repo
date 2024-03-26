@@ -43,7 +43,7 @@ const InsertVerifyUser = async (name, email, password) => {
           token: token,
         });
 
-        const activationLink = `http://localhost:8050/signup/${token}`;
+        const activationLink = `https://blackcart-backend-repo.onrender.com/signup/${token}`;
 
         const content = `<!DOCTYPE html>
             <html>
