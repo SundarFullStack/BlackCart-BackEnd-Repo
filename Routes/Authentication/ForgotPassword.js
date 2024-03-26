@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const User = require("../../Models/Authentication/User");
-const { sendMail } = require("../../Controllers/sendmail");
+const { sendMail } = require("../../Controllers/sendMail");
 const jwt = require("jsonwebtoken");
 const dotenv = require("dotenv");
 dotenv.config();
